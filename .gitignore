@@ -28,6 +28,9 @@ fp-info-cache
 *.xml
 *.csv
 
+# Exported gerber files archive
+gerbers*.zip
+
 # Mac OS
 .DS_Store
 

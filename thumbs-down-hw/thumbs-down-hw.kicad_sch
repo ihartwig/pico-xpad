@@ -1587,6 +1587,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07268d0a-b319-4374-9aee-d518dbcb274e)
   )
+  (text "B1/A/2" (at 115.57 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 17e33f90-af50-40c6-b26d-3d8995b4ca26)
+  )
   (text "DOWN" (at 185.42 47.625 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 18cb514d-ba07-49d5-977b-3eeec7caee24)
@@ -1656,10 +1660,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b6edee14-daf2-4031-bc51-3218a7782b90)
   )
-  (text "B3/X/1" (at 115.57 44.45 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bc59ddae-a259-4da9-bc6f-3155bacb13c2)
-  )
   (text "R2/RT/8" (at 185.42 62.865 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d996018b-e3a4-4549-a7c0-57004a7633d2)
@@ -1693,7 +1693,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eb0f8895-7997-47a1-9ae5-ca751819469d)
   )
-  (text "DOWN" (at 115.57 46.99 0)
+  (text "DOWN" (at 115.57 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ec98fa75-32c1-4a06-af36-a8f9e70c343c)
   )
@@ -1701,7 +1701,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid efcb1e8d-be40-4104-b0b2-7af05e25aa3d)
   )
-  (text "UP" (at 115.57 41.91 0)
+  (text "UP" (at 115.57 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4b99452-f6f2-491a-9b85-da17b26135cf)
   )
@@ -1710,9 +1710,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 018db690-b082-4005-95a1-d450c73cc0f1)
   )
-  (label "GPIO6" (at 52.705 24.765 0) (fields_autoplaced)
+  (label "GPIO2" (at 125.095 45.085 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0a25ce09-44eb-49d4-a348-07da58b50fdb)
+    (uuid 062dac10-1f65-4b0a-bfd3-e995a02a0792)
   )
   (label "RFM_MISO" (at 200.025 113.03 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1758,6 +1758,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 357ea04f-a5bd-44f4-803d-b031cbae5786)
   )
+  (label "GPIO6" (at 125.095 47.625 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3cd3a019-5049-4ace-ac52-109bc3c27339)
+  )
   (label "RFM_MISO" (at 193.675 75.565 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f103999-48bf-41be-b221-f16dac104b66)
@@ -1769,6 +1773,10 @@
   (label "VSYS" (at 247.65 40.005 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 46848c42-2034-4093-a96c-bec4de65ae9e)
+  )
+  (label "GPIO3" (at 125.095 42.545 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 49114c51-cbdd-4df9-aff2-2d04f178c64c)
   )
   (label "RFM_RESET" (at 200.025 120.65 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1786,6 +1794,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 569039a8-4b7e-452c-a72b-dd85ba206f7a)
   )
+  (label "GPIO10" (at 51.435 24.765 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6021f54e-b4cf-4e8c-9c40-1a32be9529c8)
+  )
   (label "SW_V" (at 136.525 155.575 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 620c0268-20ff-4308-8ea3-724c8eff20cf)
@@ -1794,7 +1806,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 66af11c6-e1a9-42b1-9871-3bbfdbfd46a2)
   )
-  (label "LED_DI_2" (at 59.055 39.37 0) (fields_autoplaced)
+  (label "LED_DI_3" (at 59.055 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a302ba8-b2e9-4713-b300-65a5424d08a8)
   )
@@ -1818,10 +1830,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 977a6d96-8164-4820-adf0-70ef93b0101b)
   )
-  (label "GPIO10" (at 125.095 45.085 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9a7d3fce-6020-4898-9e2d-d17ce27dc754)
-  )
   (label "GPIO18" (at 248.285 78.105 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9d463a47-ebc0-41fc-94ac-a08b63b24437)
@@ -1841,10 +1849,6 @@
   (label "GPIO26" (at 248.285 60.325 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b1843280-093e-4156-998e-a795d60c59fc)
-  )
-  (label "GPIO3" (at 125.095 47.625 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b1d94275-a6cb-4e65-b55f-41257112fd17)
   )
   (label "GPIO21" (at 248.285 70.485 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1890,10 +1894,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e3e90790-e945-42cd-a2b4-27f50977e615)
   )
-  (label "GPIO2" (at 125.095 42.545 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e8e02658-706f-4e29-96dd-ba4e3e5ba64d)
-  )
   (label "RFM_MOSI" (at 200.025 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ea81d852-8016-498e-b246-5953e24eab94)
@@ -1932,7 +1932,7 @@
     )
     (pin "1" (uuid 6e94b10b-a008-48af-9179-1ac77bb7e64c))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR016") (unit 1)
         )
@@ -1957,7 +1957,7 @@
     )
     (pin "1" (uuid 76a1ef9f-3b11-47fa-811d-74ff2285392d))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR04") (unit 1)
         )
@@ -1982,7 +1982,7 @@
     )
     (pin "1" (uuid 7dd5ee12-2ddd-497e-b923-589d085581b3))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR012") (unit 1)
         )
@@ -2008,7 +2008,7 @@
     (pin "1" (uuid 81db7cd4-a8a1-40ce-a397-719bf86e786f))
     (pin "2" (uuid 7a1891fc-3bac-4a29-aab9-d9e19d42afc9))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C1") (unit 1)
         )
@@ -2036,7 +2036,7 @@
     (pin "3" (uuid 83e863bf-56a4-4ed7-8a1b-dd81bfaee506))
     (pin "4" (uuid d91d9eef-f254-46bc-9fa4-4b4c49a11118))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "D3") (unit 1)
         )
@@ -2047,7 +2047,7 @@
   (symbol (lib_id "pico-xpad-special:SK6812MINI-E") (at 40.005 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 126a7d8f-9498-44c4-bcb0-8a5a38149d74)
-    (property "Reference" "D2" (at 43.18 46.99 0)
+    (property "Reference" "D1" (at 43.18 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SK6812MINI-E" (at 43.18 48.895 0)
@@ -2064,9 +2064,9 @@
     (pin "3" (uuid 104f907d-3492-47cb-9c8e-78f9a094a534))
     (pin "4" (uuid 6638f1a3-7b82-4c5c-90c9-10fd78cd9590))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2090,7 +2090,7 @@
     (pin "1" (uuid 6ce5e21c-87d3-4b5a-bbd5-c54014f7f4e6))
     (pin "2" (uuid c3dfda7c-dcac-4e80-b897-4940cc4c6a0c))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C3") (unit 1)
         )
@@ -2116,7 +2116,7 @@
     (pin "1" (uuid add22f95-acd2-401d-b92b-e6c0b09c7109))
     (pin "2" (uuid e39c824a-51a0-4109-9155-541c395f0a8b))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C5") (unit 1)
         )
@@ -2141,7 +2141,7 @@
     )
     (pin "1" (uuid 7656b150-3363-40cd-9262-e7c7a278b1f6))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR018") (unit 1)
         )
@@ -2167,7 +2167,7 @@
     (pin "1" (uuid aa0597c5-3d84-4127-aba0-3f2a5af113a2))
     (pin "2" (uuid d3bcf5d8-bdf2-4ca5-8cd7-166e2434feca))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "SW3") (unit 1)
         )
@@ -2191,7 +2191,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "H1") (unit 1)
         )
@@ -2217,7 +2217,7 @@
     (pin "1" (uuid 5d3b95a2-62fe-42c1-9e07-4fbda262e15f))
     (pin "2" (uuid fb62ac38-8c43-41f5-82ce-250190eb7144))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C9") (unit 1)
         )
@@ -2242,7 +2242,7 @@
     )
     (pin "1" (uuid f17899b1-4f6d-49ff-bcc7-4ae041f84aad))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR02") (unit 1)
         )
@@ -2268,7 +2268,7 @@
     (pin "1" (uuid 1b1a08df-8019-4b24-b218-09f8c210070e))
     (pin "2" (uuid 392358af-bc5b-4fb7-9038-f0cf22741264))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "JP1") (unit 1)
         )
@@ -2292,7 +2292,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "H3") (unit 1)
         )
@@ -2317,7 +2317,7 @@
     )
     (pin "1" (uuid 45125762-6e52-40c0-b45b-024b1efcb0e9))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR021") (unit 1)
         )
@@ -2343,7 +2343,7 @@
     (pin "1" (uuid 8189f3e9-20d8-44fc-807a-e06a8075252f))
     (pin "2" (uuid d9692852-104f-4c0a-be4e-959a3c879260))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "SW10") (unit 1)
         )
@@ -2369,7 +2369,7 @@
     (pin "1" (uuid ad119937-2238-4c96-8c2a-7461721f244b))
     (pin "2" (uuid ca1a59b3-8e6c-4dc0-89db-301498f22b92))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C10") (unit 1)
         )
@@ -2395,7 +2395,7 @@
     (pin "1" (uuid 403cab2d-596a-4a4a-88a3-61237204bd17))
     (pin "2" (uuid 20fad6fa-a787-48e7-9fb3-0a50311b6c84))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C4") (unit 1)
         )
@@ -2420,7 +2420,7 @@
     )
     (pin "1" (uuid eb9f2c61-168d-42e5-97bb-639d61f68bb0))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR06") (unit 1)
         )
@@ -2445,7 +2445,7 @@
     )
     (pin "1" (uuid b33fddb8-e670-4af0-8142-05452546aa10))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR01") (unit 1)
         )
@@ -2470,7 +2470,7 @@
     )
     (pin "1" (uuid be038e73-a91b-4dd6-bfb3-2fd3577e9dd6))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR08") (unit 1)
         )
@@ -2510,7 +2510,7 @@
     (pin "8" (uuid 7bd13c8c-4a41-4c64-87e0-36c86646a898))
     (pin "9" (uuid 16dee92f-34ae-44b7-8a19-26062b5c2a18))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "U2") (unit 1)
         )
@@ -2535,7 +2535,7 @@
     )
     (pin "1" (uuid b4819114-73d3-4ee5-a121-7483c71b48fb))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR03") (unit 1)
         )
@@ -2560,7 +2560,7 @@
     )
     (pin "1" (uuid d0c1192a-a141-4a7b-8a48-e8a0ddee5f25))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR019") (unit 1)
         )
@@ -2571,7 +2571,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 40.005 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c075538-0e84-4ac8-8862-7adc082de08e)
-    (property "Reference" "SW2" (at 40.005 17.78 0)
+    (property "Reference" "SW1" (at 40.005 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 40.005 20.32 0)
@@ -2586,9 +2586,9 @@
     (pin "1" (uuid a0c92956-13b3-4b2b-ad75-d2ea0fc789a6))
     (pin "2" (uuid db6ac880-6919-499e-b247-508e728f1351))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -2611,7 +2611,7 @@
     )
     (pin "1" (uuid a37e088c-a523-469b-a100-bde155837b27))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR014") (unit 1)
         )
@@ -2636,7 +2636,7 @@
     )
     (pin "1" (uuid 1ecf5569-ac40-49d4-a6c5-b3cdfe29a182))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR017") (unit 1)
         )
@@ -2661,7 +2661,7 @@
     )
     (pin "1" (uuid 9b08484f-399c-4056-b4c0-3689ee009a81))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR056") (unit 1)
         )
@@ -2687,7 +2687,7 @@
     (pin "1" (uuid d0dea362-4ee0-4ae3-9b47-90e3245f201a))
     (pin "2" (uuid 45443b4e-e4ec-4ffe-be63-0fc165ec1da1))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C2") (unit 1)
         )
@@ -2713,7 +2713,7 @@
     (pin "1" (uuid 672f6559-9967-4762-b9c6-9efd4c8eecfa))
     (pin "2" (uuid 3b34b815-2d5a-4819-92b7-f059bfa9f092))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "AE1") (unit 1)
         )
@@ -2738,7 +2738,7 @@
     )
     (pin "1" (uuid ace14337-0736-4e20-b9e6-07f60d5ae05b))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR015") (unit 1)
         )
@@ -2762,7 +2762,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "H2") (unit 1)
         )
@@ -2787,7 +2787,7 @@
     )
     (pin "1" (uuid f42afbe7-9a47-4cac-a5f4-23193b3d2fad))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR010") (unit 1)
         )
@@ -2812,7 +2812,7 @@
     )
     (pin "1" (uuid 95ddf1c4-5997-4e6e-a95d-dc91c9e2e335))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR020") (unit 1)
         )
@@ -2838,7 +2838,7 @@
     (pin "1" (uuid abec443c-3d5a-4bea-8f7e-ef59e3162d42))
     (pin "2" (uuid c1c08f45-5450-46b1-91a8-92b7d5a6cdcc))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "R2") (unit 1)
         )
@@ -2863,7 +2863,7 @@
     )
     (pin "1" (uuid a15703ca-0d67-4a2a-94f5-fdabedd1cc24))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR07") (unit 1)
         )
@@ -2889,7 +2889,7 @@
     (pin "1" (uuid 1202113d-9ded-4a34-853e-920338f8a54f))
     (pin "2" (uuid def5a26c-8d2c-4ac9-9a05-7412ea2ad9d4))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "R1") (unit 1)
         )
@@ -2914,7 +2914,7 @@
     )
     (pin "1" (uuid 9cdd1d94-2213-45f1-b79d-3e0b9151de52))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR011") (unit 1)
         )
@@ -2981,7 +2981,7 @@
     (pin "8" (uuid 6470a2f0-51ab-4b93-8c21-7bd0d4a61edc))
     (pin "9" (uuid 40c3f374-dc5d-4072-84be-4f36b8fd983a))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "U1") (unit 1)
         )
@@ -3006,7 +3006,7 @@
     )
     (pin "1" (uuid b17e07e0-257e-4210-9ad8-956fd7d16f81))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR09") (unit 1)
         )
@@ -3030,7 +3030,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "H4") (unit 1)
         )
@@ -3055,7 +3055,7 @@
     )
     (pin "1" (uuid 8c7f5d33-dc94-43c1-9795-6e1a5b5a9c1f))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR013") (unit 1)
         )
@@ -3080,7 +3080,7 @@
     )
     (pin "1" (uuid 84d904c5-2893-4fd8-ac10-f49dc666e0a8))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR05") (unit 1)
         )
@@ -3106,7 +3106,7 @@
     (pin "1" (uuid 8a4b6936-38d1-4b35-bcf9-45262a172889))
     (pin "2" (uuid d78fac27-bbe3-455d-a13f-8f982a382860))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "SW9") (unit 1)
         )
@@ -3132,7 +3132,7 @@
     (pin "1" (uuid 3b324704-09d0-48b3-8d3d-555c183c1bd9))
     (pin "2" (uuid 70bf6437-380d-42ae-afa7-f317579cfd63))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C6") (unit 1)
         )
@@ -3158,7 +3158,7 @@
     (pin "1" (uuid 2d92ae5e-2d2d-42cc-93ac-b032c287e28c))
     (pin "2" (uuid daacfb83-5ac8-4d43-aef6-4fa4b92b2c56))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "C7") (unit 1)
         )
@@ -3183,7 +3183,7 @@
     )
     (pin "1" (uuid e162fbcf-0b6f-4bf8-bd43-61cc4115d9b3))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "#PWR055") (unit 1)
         )
@@ -3235,7 +3235,7 @@
     (pin "8" (uuid b3b410e2-d009-4c70-9d95-04402fb5e429))
     (pin "9" (uuid f4a78abb-7e7a-4e96-b437-c29633adb477))
     (instances
-      (project "thumb-down-hw"
+      (project "thumbs-down-hw"
         (path "/dcdada40-f62f-41fd-bed3-e48cf62dbe17"
           (reference "A1") (unit 1)
         )
